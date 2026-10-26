@@ -1,0 +1,5 @@
+pygame>=2.6.0
+matplotlib>=3.8.0
+numpy>=1.26.0
+nbformat>=5.9.0
+nbclient>=0.10.0

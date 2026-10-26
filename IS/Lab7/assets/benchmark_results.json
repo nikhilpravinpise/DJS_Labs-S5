@@ -1,0 +1,139 @@
+{
+  "metadata": {
+    "experiment": "IS Experiment 7: Minimax Adversarial Search",
+    "subject": "Intelligent Systems (DJ19DSC502)",
+    "date": "2026-10-16",
+    "roll_number": "D095"
+  },
+  "monte_carlo_results": {
+    "ai_as_X_vs_random_O": {
+      "wins": 98,
+      "draws": 2,
+      "losses": 0,
+      "win_rate_pct": 98.0,
+      "loss_rate_pct": 0.0
+    },
+    "random_X_vs_ai_as_O": {
+      "wins": 81,
+      "draws": 19,
+      "losses": 0,
+      "win_rate_pct": 81.0,
+      "loss_rate_pct": 0.0
+    },
+    "ai_self_play": {
+      "total_games": 10,
+      "draws": 10,
+      "draw_rate_pct": 100.0
+    }
+  },
+  "depth_benchmarks": [
+    {
+      "ply": 0,
+      "empty_cells": 9,
+      "player": "X",
+      "std_nodes": 549945,
+      "std_time_ms": 3803.291199999876,
+      "ab_nodes": 7044,
+      "ab_cuts": 2977,
+      "ab_time_ms": 56.469600000127684,
+      "reduction_pct": 98.7191446417369,
+      "speedup_factor": 67.35112697790096
+    },
+    {
+      "ply": 1,
+      "empty_cells": 8,
+      "player": "O",
+      "std_nodes": 59704,
+      "std_time_ms": 680.8737000001202,
+      "ab_nodes": 1512,
+      "ab_cuts": 644,
+      "ab_time_ms": 20.944500000041444,
+      "reduction_pct": 97.46750636473269,
+      "speedup_factor": 32.50847239126133
+    },
+    {
+      "ply": 2,
+      "empty_cells": 7,
+      "player": "X",
+      "std_nodes": 7331,
+      "std_time_ms": 83.48589999968681,
+      "ab_nodes": 751,
+      "ab_cuts": 289,
+      "ab_time_ms": 9.95390000025509,
+      "reduction_pct": 89.75583140090029,
+      "speedup_factor": 8.387255246440823
+    },
+    {
+      "ply": 3,
+      "empty_cells": 6,
+      "player": "O",
+      "std_nodes": 934,
+      "std_time_ms": 9.898700000121607,
+      "ab_nodes": 103,
+      "ab_cuts": 41,
+      "ab_time_ms": 0.8661000001666253,
+      "reduction_pct": 88.97216274089935,
+      "speedup_factor": 11.4290497612484
+    },
+    {
+      "ply": 4,
+      "empty_cells": 5,
+      "player": "X",
+      "std_nodes": 197,
+      "std_time_ms": 2.351299999645562,
+      "ab_nodes": 42,
+      "ab_cuts": 14,
+      "ab_time_ms": 0.5543000006582588,
+      "reduction_pct": 78.68020304568529,
+      "speedup_factor": 4.241926748788159
+    },
+    {
+      "ply": 5,
+      "empty_cells": 4,
+      "player": "O",
+      "std_nodes": 46,
+      "std_time_ms": 0.6224999997357372,
+      "ab_nodes": 33,
+      "ab_cuts": 10,
+      "ab_time_ms": 0.366799999937939,
+      "reduction_pct": 28.26086956521739,
+      "speedup_factor": 1.6971101413333194
+    },
+    {
+      "ply": 6,
+      "empty_cells": 3,
+      "player": "X",
+      "std_nodes": 13,
+      "std_time_ms": 0.2044000002570101,
+      "ab_nodes": 12,
+      "ab_cuts": 3,
+      "ab_time_ms": 0.20170000061625615,
+      "reduction_pct": 7.6923076923076925,
+      "speedup_factor": 1.0133862153321993
+    },
+    {
+      "ply": 7,
+      "empty_cells": 2,
+      "player": "O",
+      "std_nodes": 4,
+      "std_time_ms": 0.06380000013450626,
+      "ab_nodes": 4,
+      "ab_cuts": 1,
+      "ab_time_ms": 0.0698000003467314,
+      "reduction_pct": 0.0,
+      "speedup_factor": 0.9140401119997115
+    },
+    {
+      "ply": 8,
+      "empty_cells": 1,
+      "player": "X",
+      "std_nodes": 1,
+      "std_time_ms": 0.01919999976962572,
+      "ab_nodes": 1,
+      "ab_cuts": 0,
+      "ab_time_ms": 0.0227999998969608,
+      "reduction_pct": 0.0,
+      "speedup_factor": 0.8421052568594549
+    }
+  ]
+}
